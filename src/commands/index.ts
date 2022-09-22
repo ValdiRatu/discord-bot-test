@@ -1,6 +1,8 @@
 import { Collection } from 'discord.js';
 import type { DiscordBotSlashCommand } from './types';
-import { fooCommand, echoCommand, addCommand } from './foo';
+import { fooCommand } from './foo';
+import { echoCommand } from './echo';
+import { addCommand } from './add';
 import { slotsCommand } from './slots';
 
 const commands = new Collection<string, DiscordBotSlashCommand>();
